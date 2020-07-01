@@ -174,7 +174,7 @@ def start():
     sblabel.grid(row=0, column=1)
     blabel = Label(frmb, text='TCP流量统计系统', justify=LEFT, font=("微软雅黑", 20), fg='blue')
     blabel.grid(row=0, column=0)
-    nlabel = Label(frmn, relief=RIDGE, text='班级：信息安全2班    姓名：张家维    学号：3118005433 ')
+    nlabel = Label(frmn, relief=RIDGE, text='班级：xxxxxx    姓名：xxx    学号：xxxxxxxxxx ')
     nlabel.grid(row=0, column=1)
     wlabel = Label(frmrz, textvariable=strlabel)
     wlabel.grid(row=0, column=4)
