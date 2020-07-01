@@ -1,6 +1,8 @@
 # TC_packet
   Fetch TCP packet
 
+
+点击include下的start.py文件即可运行
 1.1任务要求
 收集并统计网络TCP流量
 1.1.1任务
