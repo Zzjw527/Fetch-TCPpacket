@@ -2,7 +2,11 @@
   Fetch TCP packet
 
 
-点击include下的start.py文件即可运行
+点击include文件下的start.py文件即可运行
+
+
+![image](https://github.com/Zzjw527/Fetch-TCPpacket/blob/master/photo.png)
+
 1.1任务要求
 收集并统计网络TCP流量
 1.1.1任务
@@ -15,6 +19,14 @@
   （3）向用户提供友好的交互界面。
   （4）用户可以方便地中止或继续TCP流量的统计。
   （5）系统必须对出现的问题或错误做出响应。
+  
+  Design topics Collect and count network TCP traffic ★ Known technical parameters and design requirements 1. Use WinPcap (a development code function library for packet capture under Win32 environment) to monitor network TCP traffic.
+2. The program completes the following functions: (1) Use WinPcap to collect data flowing through the network card.
+(2) Set up a filter to leave only TCP packets.
+(3) Count the TCP traffic according to the port number and display the statistical results.
+(3) Provide users with a friendly interactive interface.
+(4) Users can easily stop or continue the statistics of TCP traffic.
+(5) The system must respond to problems or errors that occur.
 
 设计内容与步骤	1.回顾开发工具的基本使用方法；
 2.学习WinPcap编程的基本方法；
